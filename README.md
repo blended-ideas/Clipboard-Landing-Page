@@ -1,4 +1,6 @@
- # Frontend Mentor - Clipboard landing page
+# Frontend Mentor - Clipboard landing page
+
+> Part of [Florin Pop's](https://twitter.com/florinpop1705) #7Days7Websites Challenge - Day 1.
 
 ![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
 
