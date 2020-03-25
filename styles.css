@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,700&display=swap');
+
+
+:root {
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url("images/bg-header-desktop.png") no-repeat;
+
+    color: var(--grayish-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--dark-grayish-blue);
+    font-weight: bold;
+}
+
+
+section {
+    margin-top: 150px;
+}
+
+
+/* -------------------- Heading -------------------- */
+
+@media (min-width: 576px) {
+    section.section-width-limit {
+        max-width: 670px !important;
+    }
+}
+
+.header-copy-right {
+    font-size: 125px;
+    color: #25bca5;
+    margin-bottom: 50px;
+}
+
+
+button.download-btn {
+    padding: 20px 50px;
+    margin: 0 10px;
+    border: 0;
+    color: white;
+}
+
+button.download-btn.ios {
+    background: var(--strong-cyan);
+}
+
+button.download-btn.ios:hover {
+    box-shadow: 7px 7px 20px -6px var(--strong-cyan);
+}
+
+button.download-btn.mac {
+    background: var(--light-blue);
+}
+
+button.download-btn.mac:hover {
+    box-shadow: 7px 7px 20px -6px var(--light-blue);
+}
+
+
+/* -------------------- Heading End -------------------- */
+
+.client-logo {
+    /*flex: 1;*/
+    margin: 20px auto auto;
+}
+
+@media (min-width: 576px) {
+    .transform-sm-gt {
+        transform: translate(-45px, 0);
+    }
+}
+
+/* -------------------- Footer -------------------- */
+
+footer {
+    padding: 30px 0;
+    background: #f5f6f8;
+}
+
+footer .footer-link {
+    color: var(--dark-grayish-blue);
+}
+
+footer .footer-link-external {
+    text-decoration: none;
+    margin: 10px 10px 0;
+    color: var(--dark-grayish-blue);
+}
+
+footer .attribution {
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* -------------------- Footer End -------------------- */
+
+
